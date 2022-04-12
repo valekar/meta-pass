@@ -45,7 +45,7 @@ pub mod meta_pass {
         event.config.ticket_price = args.ticket_price;
         event.config.total_tickets = args.total_tickets;
 
-
+        //validation
         let organizer = &mut ctx.accounts.organizer;
         organizer.seq = organizer.seq.checked_add(1).unwrap();
 
