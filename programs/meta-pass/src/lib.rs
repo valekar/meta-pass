@@ -1,5 +1,6 @@
 use anchor_lang::prelude::*;
 
+//test
 declare_id!("5TzpQbN8Mec9c3aiX2KbK5jq6dYUnseDjuzzdjhcFZi4");
 
 const PREFIX: &str = "meta-pass";
